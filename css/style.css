@@ -1,6 +1,50 @@
-header {
-  background-color: orangeRed;
+section, header {
   margin: auto 5%;
   border-radius: 10px;
+  padding: 10px 40px;
+  margin: 10px;
+  border: 3px white solid;
+}
+
+header {
+  background-color: rgba(255, 69, 0, .75);
   text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: "Times New Roman", serif;
+  color: white;
+}
+
+#About {
+  background-color: rgba(102,0,102,.75);
+}
+
+#perfectDate {
+  padding: 40px;
+}
+
+#Dealbreakers {
+  background-color: #008B8B;
+}
+
+li, p {
+  color: #bbbbbb;
+}
+
+img {
+  background-color: rgba(102, 0, 102, .75);
+  margin: 10px auto;
+  border: 1px white solid;
+  border-radius: 10px;
+  display: block;
 }
